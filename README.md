@@ -18,12 +18,6 @@ Design and implement a robot capable of:
 
 ---
 
-## 🧠 System Architecture
-
-(not available yet)
-
----
-
 ## 🛠️ Technologies Used
 
 - 📷 **Intel RealSense D435i** — Color + Depth Camera  
@@ -63,8 +57,8 @@ Design and implement a robot capable of:
 
 ## 🧪 Demo
 
-🎥 **Demo ** – Robot following a person and Wheel speed change when turning(screen recording)  
-[▶️ Watch on Google Drive](https://drive.google.com/file/d/13Uw83MHfXj6rsvhU6wesWhnttASEJpLC/view?usp=sharing) 
+🎥 **Demo** – Robot following a person, and wheel speed changing when turning  
+[▶️ Watch on YouTube](https://youtu.be/bcdjbf4g2AU) · [Screen recording on Google Drive](https://drive.google.com/file/d/13Uw83MHfXj6rsvhU6wesWhnttASEJpLC/view?usp=sharing)
 
 
 ---
@@ -72,15 +66,10 @@ Design and implement a robot capable of:
 ## 📁 Project Structure
 
 ```
-
-├── person\_following.py                    # Final Python code
-├── requirements.txt                      # Dependencies list
-├── Person\_Following\_Robot\_Documentation.pdf # Full technical doc (in frensh)(english version will be available soon)
-├── person\_following\_robot\_architecture.png # System diagram
-├── /videos                                # Demo videos (optional)
-└── /screenshots                           # Output images
-
-````
+├── person_following.py                                  # Main Python program
+├── requirements.txt                                     # Dependencies
+└── Documentation Complète du prjet Follow me Robot.pdf # Full technical documentation (in French)
+```
 
 ---
 
@@ -93,15 +82,15 @@ Design and implement a robot capable of:
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/person-following-robot.git
-cd person-following-robot
+git clone https://github.com/mohamedalijomaaghouil/Autonomous-vision-based-person-following-robot-using-YOLO-and-Realsense.git
+cd Autonomous-vision-based-person-following-robot-using-YOLO-and-Realsense
 ````
 
 ### 2. Set up virtual environment
 
 ```bash
-python3 -m venv open3d_env
-source open3d_env/bin/activate
+python3 -m venv venv
+source venv/bin/activate
 ```
 
 ### 3. Install dependencies
