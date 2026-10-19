@@ -82,8 +82,8 @@ Design and implement a robot capable of:
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/mohamedalijomaaghouil/Autonomous-vision-based-person-following-robot-using-YOLO-and-Realsense.git
-cd Autonomous-vision-based-person-following-robot-using-YOLO-and-Realsense
+git clone https://github.com/mohamedalijomaaghouil/follow-me-person-following-robot.git
+cd follow-me-person-following-robot
 ````
 
 ### 2. Set up virtual environment
